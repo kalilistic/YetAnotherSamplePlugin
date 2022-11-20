@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "dependencies": {
+    "net6.0-windows7.0": {
+      "Dalamud.DrunkenToad": {
+        "type": "Direct",
+        "requested": "[1.4.0, )",
+        "resolved": "1.4.0",
+        "contentHash": "GQvqiZrnyZIArl9aji2s4oUxUDfUAyT8UmFB5VSgv3y6i6INz5XRJgE/OPUdqRDsd9zSCmR+z2wDUFB77whYsg==",
+        "dependencies": {
+          "Dalamud.Loc": "1.0.0",
+          "FlexConfig": "0.0.10"
+        }
+      },
+      "FlexConfig": {
+        "type": "Direct",
+        "requested": "[1.0.0, )",
+        "resolved": "1.0.0",
+        "contentHash": "rEEO0rhEySVMiIRDdxHQhwkLYNFIOlCA+lFnU0crA2kY2gOHUNxNtUVIYd6kW1Wyj6qp/L4Gn8XCfxyt6G0rQg==",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        }
+      },
+      "StyleCop.Analyzers": {
+        "type": "Direct",
+        "requested": "[1.2.0-beta.435, )",
+        "resolved": "1.2.0-beta.435",
+        "contentHash": "TADk7vdGXtfTnYCV7GyleaaRTQjfoSfZXprQrVMm7cSJtJbFc1QIbWPyLvrgrfGdfHbGmUPvaN4ODKNxg2jgPQ==",
+        "dependencies": {
+          "StyleCop.Analyzers.Unstable": "1.2.0.435"
+        }
+      },
+      "Dalamud.Loc": {
+        "type": "Transitive",
+        "resolved": "1.0.0",
+        "contentHash": "5VSlL/T1P0OymoUsvyfB+IitoVXv7bGXm5KmMCTPFr2nywPqQ8opjQQ87yt1/FQZql27P7Nz8VfXBXaLcb093g=="
+      },
+      "Newtonsoft.Json": {
+        "type": "Transitive",
+        "resolved": "13.0.1",
+        "contentHash": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A=="
+      },
+      "StyleCop.Analyzers.Unstable": {
+        "type": "Transitive",
+        "resolved": "1.2.0.435",
+        "contentHash": "ouwPWZxbOV3SmCZxIRqHvljkSzkCyi1tDoMzQtDb/bRP8ctASV/iRJr+A2Gdj0QLaLmWnqTWDrH82/iP+X80Lg=="
+      },
+      "yasp.models": {
+        "type": "Project"
+      }
+    }
+  }
+}
