@@ -12,6 +12,12 @@
           "FlexConfig": "0.0.10"
         }
       },
+      "DalamudPackager": {
+        "type": "Direct",
+        "requested": "[2.1.8, )",
+        "resolved": "2.1.8",
+        "contentHash": "YqagNXs9InxmqkXzq7kLveImxnodkBEicAhydMXVp7dFjC7xb76U6zGgAax4/BWIWfZeWzr5DJyQSev31kj81A=="
+      },
       "StyleCop.Analyzers": {
         "type": "Direct",
         "requested": "[1.2.0-beta.435, )",
@@ -50,15 +56,15 @@
       "yasp.services": {
         "type": "Project",
         "dependencies": {
-          "YASP.Models": "[1.0.0, )"
+          "YASP.Models": "1.0.0"
         }
       },
       "yasp.userinterface": {
         "type": "Project",
         "dependencies": {
-          "Dalamud.DrunkenToad": "[1.4.0, )",
-          "FlexConfig": "[1.0.0, )",
-          "YASP.Models": "[1.0.0, )"
+          "Dalamud.DrunkenToad": "1.4.0",
+          "FlexConfig": "1.0.0",
+          "YASP.Models": "1.0.0"
         }
       }
     }

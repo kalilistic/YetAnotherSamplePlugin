@@ -38,11 +38,12 @@
 		<WarningLevel>4</WarningLevel>
 	</PropertyGroup>
 	<ItemGroup>
-		<None Remove="stylecop.json"/>
+		<None Remove="stylecop.json" />
 		<AdditionalFiles Include="..\stylecop.json">
 			<Link>stylecop.json</Link>
 		</AdditionalFiles>
-		<PackageReference Include="Dalamud.DrunkenToad" Version="1.4.0"/>
+		<PackageReference Include="Dalamud.DrunkenToad" Version="1.4.0" />
+		<PackageReference Include="DalamudPackager" Version="2.1.8" />
 		<PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.435">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -75,16 +76,16 @@
 		</Reference>
 	</ItemGroup>
 	<ItemGroup>
-		<ProjectReference Include="..\YASP.Models\YASP.Models.csproj"/>
-		<ProjectReference Include="..\YASP.Services\YASP.Services.csproj"/>
-		<ProjectReference Include="..\YASP.UserInterface\YASP.UserInterface.csproj"/>
+		<ProjectReference Include="..\YASP.Models\YASP.Models.csproj" />
+		<ProjectReference Include="..\YASP.Services\YASP.Services.csproj" />
+		<ProjectReference Include="..\YASP.UserInterface\YASP.UserInterface.csproj" />
 	</ItemGroup>
 	<ItemGroup>
-		<None Remove="Resource\Loc\en.json"/>
-		<EmbeddedResource Include="Resource\Loc\en.json"/>
-		<None Remove="Resource\Loc\fr.json"/>
-		<EmbeddedResource Include="Resource\Loc\fr.json"/>
-		<None Remove="Resource\Loc\ja.json"/>
-		<EmbeddedResource Include="Resource\Loc\ja.json"/>
+		<None Remove="Resource\Loc\en.json" />
+		<EmbeddedResource Include="Resource\Loc\en.json" />
+		<None Remove="Resource\Loc\fr.json" />
+		<EmbeddedResource Include="Resource\Loc\fr.json" />
+		<None Remove="Resource\Loc\ja.json" />
+		<EmbeddedResource Include="Resource\Loc\ja.json" />
 	</ItemGroup>
 </Project>

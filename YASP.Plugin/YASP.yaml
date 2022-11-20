@@ -1,0 +1,10 @@
+name: YASP
+author: kalilistic
+punchline: An over-engineered Dalamud sample plugin.
+description: |-
+    YASP is an over-engineered Dalamud sample plugin. 
+    This is my attempt to abstract away boilerplate code and make writing unit tests easier.
+tags:
+- sample
+repo_url: https://github.com/kalilistic/YetAnotherSamplePlugin
+dalamud_api_level: 7
