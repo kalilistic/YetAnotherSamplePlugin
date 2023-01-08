@@ -1,3 +1,5 @@
+# VERY WORK-IN-PROGRESS -> Use with caution!
+
 # YetAnotherSamplePlugin
 
 YASP is an over-engineered Dalamud sample plugin. If you are new to plugin development, you probably want to start [here](https://github.com/goatcorp/SamplePlugin) instead. This is my attempt to abstract away boilerplate code and make writing unit tests easier.
